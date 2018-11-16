@@ -30,7 +30,7 @@ module.exports =  class CommandTest extends AbstractCommand {
     msg.push(" prend dans ses bras ")
     msg.push(" se colle a ")
     msg.push(" se jette sur ")
-    var aleatoire = Math.floor(Math.random() * Math.floor(msg.length))
+    var aleatoire = Math.floor(Math.random() * (msg.length - 1) + 1)
     var images = []
     images.push("https://media.giphy.com/media/L1icatkT4ECAg/giphy.gif")
 	images.push("https://media.giphy.com/media/BXrwTdoho6hkQ/giphy.gif")
