@@ -21,7 +21,7 @@ module.exports =  class CommandTest extends AbstractCommand {
     action(message) {
     var membre = this.getFirstMentionMember()
     var msg = [" embrasse ", " colle ses lèvres à "]
-    var aleatoire = Math.floor(Math.random() * (images.length - 1) + 1)
+    var aleatoire = Math.floor(Math.random() * (msg.length - 1) + 1)
     var images = []
     images.push("https://media.giphy.com/media/QGc8RgRvMonFm/giphy.gif")
     images.push("https://media.giphy.com/media/Z2sivLSfN8FH2/giphy.gif")

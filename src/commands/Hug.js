@@ -1,4 +1,4 @@
-const AbstractCommand =  require("./AbstractCommand")
+const AbstractCommand =  require("../AbstractCommand")
 
 module.exports =  class CommandTest extends AbstractCommand {
     constructor(){
