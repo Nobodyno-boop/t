@@ -119,6 +119,10 @@ module.exports =  {
         name: "",
         id: 511272528162062349
     },
+    LE_LIEVRE_DE_FEVRIER: {
+        name: "",
+        id: 368880641283981312
+    },
     ALL: {
         name: "@everyone",
         id: 362670978096168961
